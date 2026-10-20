@@ -30,12 +30,12 @@ export default function Hero() {
         />
       </motion.div>
       <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-8">
-        <p className="max-w-[40ch] text-[20px] leading-[1.4] tracking-[-0.015em] desk:text-2xl">
-          Music has always been a huge part of my life. From my very first guitar lessons at age 8 through to working alongside global artists including Dermot Kennedy and The Lumineers, it has been the reason I wake up every day.
+        <p className="text-[17px] leading-[1.65] text-body">
+          Music is a huge part of my life. From my very first guitar lessons at age 8 through to travelling the world alongside global artists including Dermot Kennedy and The Lumineers. Through my time at major record labels I have developed my skillset in being able to lead major campaigns from album releases to tours and even TV shows.
         </p>
       </div>
       <div className="flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-4">
-        <p className="text-base leading-[1.65] text-body">
+        <p className="text-[17px] leading-[1.65] text-body">
           This portfolio is a taste of the work I am proud to have been part of. I am always interested to hear about new projects and where I might be able to help. If you&apos;re interested in collaborating get in touch and let&apos;s chat, or even better, grab a coffee.
         </p>
         <a href="#work" className="self-start border-b border-ink pb-1 font-mono text-[13px] !text-ink no-underline">
