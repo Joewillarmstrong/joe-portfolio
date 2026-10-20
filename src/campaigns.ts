@@ -1,3 +1,13 @@
+export type Video = {
+  id: string;
+  label: string;
+  aria: string;
+  short?: boolean;
+  poster?: string;
+  posterZoom?: boolean;
+  tone: "ink" | "green";
+};
+
 export type Campaign = {
   id: string;
   title: string;
@@ -9,13 +19,7 @@ export type Campaign = {
   meta: string;
   heading: string;
   paras: string[];
-  videoId: string;
-  videoLabel: string;
-  videoAria: string;
-  short?: boolean;
-  poster?: string;
-  posterZoom?: boolean;
-  tone: "ink" | "green";
+  videos: Video[];
   roles: string[];
 };
 
@@ -35,14 +39,14 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music International, 2021 to 2023",
     heading: "Album campaign for Dermot Kennedy",
     paras: [
-      "Sonder was a global priority for Universal, and I ran Dermot's international campaign with the UK and US teams for two years. It opened in Europe with top 10 radio in Germany and France and his first major French TV slot on Taratata, then took the album top 10 in Australia, Germany, France and the US, and to number one in the UK.",
+      "Sonder was a global priority for Universal, and I ran Dermot's international campaign with the UK and US teams for two years. It opened in Europe with top 10 radio in Germany and France and his first major French TV slot on Taratata, then took the album to the top 20 in Australia, Germany and France, top 10 in the US, and to number one in the UK.",
       "When a support slot on a Shawn Mendes world tour fell through, we built a global busking tour instead. I ran it as campaign manager: finding and securing locations, announcing each show 24 hours out on Dermot's socials, and live-streaming every set on his channels.",
+      "The campaign saw Dermot debut with shows and press in South Korea, Singapore, the Philippines and Malaysia, introducing him to a global audience.",
     ],
-    videoId: "o8uYw1IFGJM",
-    videoLabel: "Watch: the Cologne busk",
-    videoAria: "Play Dermot Kennedy in Cologne",
-    poster: "cologne-busk-crowd.jpg",
-    tone: "ink",
+    videos: [
+      { id: "XLZ22R75CmA", label: "Watch: Taratata, France", aria: "Play Dermot Kennedy on Taratata", tone: "ink", poster: "thumb-taratata.jpg" },
+      { id: "o8uYw1IFGJM", label: "Watch: the Cologne busk", aria: "Play Dermot Kennedy in Cologne", tone: "ink", poster: "cologne-busk-crowd.jpg" },
+    ],
     roles: [
       "International campaign with UK and US teams",
       "Busking tour: locations, logistics, promo",
@@ -68,11 +72,9 @@ export const campaigns: Campaign[] = [
       "“If We Ever Broke Up” went viral on TikTok in Europe and the US first. Three or four months later, my Friday market-by-market report picked up a second wave building in Asia.",
       "We moved campaign spend into Japan, China and the Philippines. In Japan, influencers had built a dance trend around the song, and we got Mae to join in herself. She went on promo in Japan and across Europe, the song reached number one on radio in Germany and France, and for two weeks it outranked a Taylor Swift single on Universal's internal global chart.",
     ],
-    videoId: "vjEDjNFCSeg",
-    videoLabel: "Watch: the Japan dance trend",
-    videoAria: "Play the Japan dance trend",
-    short: true,
-    tone: "green",
+    videos: [
+      { id: "vjEDjNFCSeg", label: "Watch: the Japan dance trend", aria: "Play the Japan dance trend", tone: "green", short: true },
+    ],
     roles: [
       "Friday report across every market",
       "Spend shift into Asia",
@@ -98,12 +100,9 @@ export const campaigns: Campaign[] = [
       "I found Devon in the streaming data on Spinnup, Universal's distribution platform for independent artists. I brought him to the company, recommended signing him, then worked his campaign as one of a team of two.",
       "From there the job was getting him heard. Playlist pitches put him on Spotify's The Indie List, I worked with a radio plugger on his first BBC Radio 1 play, and he followed it with an on-air interview with Jack Saunders. I was on set for his music videos and worked alongside his PR team. He went on to play festivals and support McFly on tour.",
     ],
-    videoId: "BcNrzbS62ts",
-    videoLabel: "Watch: Belong 2 U",
-    videoAria: "Play Devon, Belong 2 U",
-    poster: "thumb-devon.jpg",
-    posterZoom: true,
-    tone: "ink",
+    videos: [
+      { id: "BcNrzbS62ts", label: "Watch: Belong 2 U", aria: "Play Devon, Belong 2 U", tone: "ink", poster: "thumb-devon.jpg", posterZoom: true },
+    ],
     roles: [
       "Found the artist and recommended the signing",
       "Spotify playlist pitching",
@@ -129,11 +128,9 @@ export const campaigns: Campaign[] = [
       "The Original Recordings is a 20-track Sex Pistols collection, released just ahead of Pistol, Danny Boyle's 2022 series about the band, which is based on guitarist Steve Jones's memoir.",
       "My job was to promote the album internationally ahead of the series. I worked very closely with Steve Jones, securing radio, press and promo.",
     ],
-    videoId: "-QtyfPxkBqs",
-    videoLabel: "Watch: the Pistol trailer",
-    videoAria: "Play the Pistol trailer",
-    poster: "thumb-pistols.jpg",
-    tone: "green",
+    videos: [
+      { id: "-QtyfPxkBqs", label: "Watch: the Pistol trailer", aria: "Play the Pistol trailer", tone: "green", poster: "thumb-pistols.jpg" },
+    ],
     roles: [
       "International album campaign",
       "Working closely with Steve Jones",

@@ -79,17 +79,20 @@ export default function Work() {
           </div>
 
           <div className="flex flex-col gap-3.5 desk:col-span-4 desk:col-start-9">
-            <LiteVideo
-              key={c.id}
-              videoId={c.videoId}
-              aria={c.videoAria}
-              title={c.videoLabel.replace("Watch: ", "")}
-              poster={c.poster}
-              posterZoom={c.posterZoom}
-              short={c.short}
-              tone={c.tone}
-            />
-            <span className="font-mono text-xs">{c.videoLabel}</span>
+            {c.videos.map((v) => (
+              <div key={`${c.id}-${v.id}`} className="flex flex-col gap-3.5">
+                <LiteVideo
+                  videoId={v.id}
+                  aria={v.aria}
+                  title={v.label.replace("Watch: ", "")}
+                  poster={v.poster}
+                  posterZoom={v.posterZoom}
+                  short={v.short}
+                  tone={v.tone}
+                />
+                <span className="font-mono text-xs">{v.label}</span>
+              </div>
+            ))}
             <ul className="mt-3 flex flex-col gap-1.5 font-mono text-xs text-body">
               {c.roles.map((r) => (
                 <li key={r}>{r}</li>
