@@ -18,11 +18,12 @@ export default function Nav() {
         <a href="#top" onClick={close} className="whitespace-nowrap text-[15px] font-semibold !text-ink no-underline">
           Joe Armstrong
         </a>
-        <div className="hidden items-center gap-8 font-mono text-xs desk:flex">
+        <div className="hidden items-center gap-6 font-mono text-xs desk:flex">
           {links.map((l) => (
             <a key={l.href} href={l.href} className="!text-ink no-underline">{l.label}</a>
           ))}
-          <a href="mailto:joearmstrong03@gmail.com" className="no-underline">Email me</a>
+          <a href="mailto:joearmstrong03@gmail.com" className="no-underline">joearmstrong03@gmail.com</a>
+          <a href="tel:+61422765094" className="!text-ink no-underline">0422 765 094</a>
         </div>
         <button
           type="button"
@@ -39,7 +40,8 @@ export default function Nav() {
           {links.map((l) => (
             <a key={l.href} href={l.href} onClick={close} className="!text-ink no-underline">{l.label}</a>
           ))}
-          <a href="mailto:joearmstrong03@gmail.com" onClick={close} className="no-underline">Email me</a>
+          <a href="mailto:joearmstrong03@gmail.com" onClick={close} className="no-underline">joearmstrong03@gmail.com</a>
+          <a href="tel:+61422765094" onClick={close} className="!text-ink no-underline">0422 765 094</a>
         </div>
       )}
     </header>
