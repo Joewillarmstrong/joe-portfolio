@@ -85,6 +85,7 @@ export default function Work() {
               aria={c.videoAria}
               title={c.videoLabel.replace("Watch: ", "")}
               poster={c.poster}
+              posterZoom={c.posterZoom}
               short={c.short}
               tone={c.tone}
             />

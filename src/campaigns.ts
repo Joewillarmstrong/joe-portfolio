@@ -14,6 +14,7 @@ export type Campaign = {
   videoAria: string;
   short?: boolean;
   poster?: string;
+  posterZoom?: boolean;
   tone: "ink" | "green";
   roles: string[];
 };
@@ -23,9 +24,9 @@ export const campaigns: Campaign[] = [
     id: "dermot",
     title: "Dermot Kennedy",
     sub: "Album campaign, 2021 to 2023",
-    img: "press-dermot.jpg",
+    img: "press-dermot.webp",
     alt: "Dermot Kennedy press shot",
-    pos: "center 30%",
+    pos: "center 28%",
     stats: [
       { big: "No.1", label: "UK album chart" },
       { big: "24hrs", label: "Notice on every busking show" },
@@ -100,6 +101,8 @@ export const campaigns: Campaign[] = [
     videoId: "BcNrzbS62ts",
     videoLabel: "Watch: Belong 2 U",
     videoAria: "Play Devon, Belong 2 U",
+    poster: "thumb-devon.jpg",
+    posterZoom: true,
     tone: "ink",
     roles: [
       "Found the artist and recommended the signing",
@@ -129,6 +132,7 @@ export const campaigns: Campaign[] = [
     videoId: "-QtyfPxkBqs",
     videoLabel: "Watch: the Pistol trailer",
     videoAria: "Play the Pistol trailer",
+    poster: "thumb-pistols.jpg",
     tone: "green",
     roles: [
       "International album campaign",
