@@ -40,7 +40,7 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music International, 2021 to 2023",
     heading: "Album campaign for Dermot Kennedy",
     paras: [
-      "Sonder was a global priority for Universal, and I ran Dermot's international campaign with the UK and US teams for two years. It opened in Europe with top 10 radio in Germany and France and his first major French TV slot on Taratata, then took the album to the top 20 in Australia, Germany and France, top 10 in the US, and to number one in the UK.",
+      "Sonder was a global priority for Universal, and I ran Dermot's international campaign with the UK and US teams for two years. It opened in Europe with top 10 radio in Germany and France and his first major French TV slot on Taratata. The album placed in the top 20 in Australia, Germany and France, top 10 in the US, and number one in the UK.",
       "When a support slot on a Shawn Mendes world tour fell through, we built a global busking tour instead. I ran it as campaign manager: finding and securing locations, announcing each show 24 hours out on Dermot's socials, and live-streaming every set on his channels.",
       "The campaign saw Dermot debut with shows and press in South Korea, Singapore, the Philippines and Malaysia, introducing him to a global audience.",
     ],
