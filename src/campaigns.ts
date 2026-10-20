@@ -123,15 +123,15 @@ export const campaigns: Campaign[] = [
     alt: "The Original Recordings album cover",
     pos: "center",
     stats: [
-      { big: "20 tracks", label: "The Original Recordings, 2022" },
-      { big: "Pistol", label: "Danny Boyle series, May 2022" },
-      { big: "Steve Jones", label: "Worked with him on the promo" },
+      { big: "TV Series", label: "Directed by Danny Boyle" },
+      { big: "International Promo", label: "With Steve Jones" },
+      { big: "20 Track", label: "Original Recordings album" },
     ],
     meta: "Universal Music International, 2022",
     heading: "Album campaign for Sex Pistols",
     paras: [
-      "The Original Recordings is a 20-track Sex Pistols collection, released just ahead of Pistol, Danny Boyle's 2022 series about the band, which is based on guitarist Steve Jones's memoir.",
-      "My job was to promote the album internationally ahead of the series. I worked very closely with Steve Jones, securing radio, press and promo.",
+      "In 2022 I was lucky enough to work with British rock royalty, the Sex Pistols. The campaign was built around the release of the Danny Boyle directed Disney+ series Pistol, based on Steve Jones's memoir. As it was being released on a major streamer, the series would be global from the get go. To run alongside the series we released a 20 track album of original recordings from the show, showcasing the Pistols' iconic catalogue.",
+      "I worked very closely with Steve and the band's management to promote both the album and series internationally, securing key promo in Europe and the US with publications like Rolling Stone. It was an incredible campaign and an honour to work with British rock royalty.",
     ],
     videos: [
       { id: "-QtyfPxkBqs", label: "Watch: the Pistol trailer", aria: "Play the Pistol trailer", tone: "green", poster: "thumb-pistols.jpg" },
