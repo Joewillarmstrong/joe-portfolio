@@ -20,6 +20,7 @@ export type Campaign = {
   heading: string;
   paras: string[];
   videos: Video[];
+  gallery?: { src: string; alt: string; pos?: string }[];
   roles: string[];
 };
 
@@ -96,11 +97,16 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music On Demand, 2018 to 2020",
     heading: "Artist development for Devon",
     paras: [
-      "I found Devon in the streaming data on Spinnup, Universal's distribution platform for independent artists. I brought him to the company, recommended signing him, then worked his campaign as one of a team of two.",
-      "From there the job was getting him heard. Playlist pitches put him on Spotify's The Indie List, I worked with a radio plugger on his first BBC Radio 1 play, and he followed it with an on-air interview with Jack Saunders. I was on set for his music videos and worked alongside his PR team. He went on to play festivals and support McFly on tour.",
+      "I discovered Devon through UMG's own distribution platform Spinnup. We signed him based on my recommendation, then worked his campaign as one of a team of two.",
+      "From there the job was building an artist project from the ground up. Defining his identity, introducing him to tastemakers and honing his live skills. This project saw us secure Devon's first support on Spotify, Apple and Deezer, with key inclusions in The Indie List. We also gained a BBC Radio 1 debut and an interview on Jack Saunders' Indie Show. This support snowballed and before long Devon was making TV appearances, playing headline shows and supporting UK juggernauts McFly.",
     ],
     videos: [
       { id: "BcNrzbS62ts", label: "Watch: Belong 2 U", aria: "Play Devon, Belong 2 U", tone: "ink", poster: "thumb-devon.jpg", posterZoom: true },
+    ],
+    gallery: [
+      { src: "devon-set-1.webp", alt: "Devon on set during a photo shoot, sitting on the studio floor with a mirrored guitar", pos: "center 60%" },
+      { src: "devon-set-2.webp", alt: "Behind the scenes of a Devon music video, seen on the camera monitor", pos: "center" },
+      { src: "devon-set-3.webp", alt: "Devon standing with a mirrored guitar, seen on a camera monitor on set", pos: "center 55%" },
     ],
     roles: [
       "Found the artist and recommended the signing",

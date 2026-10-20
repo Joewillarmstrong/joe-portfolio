@@ -99,6 +99,22 @@ export default function Work() {
               ))}
             </ul>
           </div>
+
+          {c.gallery && (
+            <div className="grid grid-cols-3 gap-3 desk:col-span-12 desk:mt-4 desk:gap-6">
+              {c.gallery.map((g) => (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  key={g.src}
+                  src={asset(g.src)}
+                  alt={g.alt}
+                  loading="lazy"
+                  style={{ objectPosition: g.pos }}
+                  className="aspect-[3/4] w-full object-cover"
+                />
+              ))}
+            </div>
+          )}
         </motion.div>
       </AnimatePresence>
     </section>
