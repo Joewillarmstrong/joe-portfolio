@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="mx-auto grid max-w-[1360px] grid-cols-1 items-stretch gap-x-6 gap-y-10 px-5 pb-16 pt-14 desk:grid-cols-12 desk:gap-y-14 desk:px-10 desk:pb-24 desk:pt-[88px]"
+      className="mx-auto grid max-w-[1360px] grid-cols-1 items-stretch gap-x-6 gap-y-10 px-5 pb-16 pt-14 desk:grid-cols-12 desk:gap-y-10 desk:px-10 desk:pb-24 desk:pt-[88px]"
     >
       <motion.h1
         {...rise()}
@@ -21,7 +21,7 @@ export default function Hero() {
       >
         Music marketing for artists, labels and the people around them.
       </motion.h1>
-      <motion.div {...rise(0.15)} className="relative aspect-[4/3] w-full overflow-hidden desk:col-span-4 desk:aspect-auto">
+      <motion.div {...rise(0.15)} className="relative aspect-[4/3] w-full overflow-hidden desk:col-span-4 desk:col-start-9 desk:row-span-2 desk:row-start-1 desk:aspect-auto">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={asset("joe-portrait.jpg")}
@@ -29,7 +29,7 @@ export default function Hero() {
           className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
         />
       </motion.div>
-      <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-12">
+      <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-8 desk:col-start-1">
         <div className="flex max-w-[860px] flex-col gap-5">
           <p className="text-[17px] leading-[1.65] text-body">
             Music is a huge part of my life. From my very first guitar lessons at age 8 through to my first band and more recently in my professional life. It has taken me all over the world where I have been lucky enough to work at the world&apos;s biggest record labels, leading campaigns for incredible artists including Dermot Kennedy, The Lumineers, Ben Howard, Sex Pistols and more.
