@@ -26,7 +26,7 @@ export default function Hero() {
         <img
           src={asset("joe-portrait.jpg")}
           alt="Portrait of Joe Armstrong"
-          className="absolute inset-0 h-full w-full object-cover object-[center_25%] grayscale"
+          className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
         />
       </motion.div>
       <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-8">
