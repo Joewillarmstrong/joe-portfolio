@@ -29,15 +29,15 @@ export default function Hero() {
           className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
         />
       </motion.div>
-      <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-8">
-        <p className="text-[17px] leading-[1.65] text-body">
-          Music is a huge part of my life. From my very first guitar lessons at age 8 through to travelling the world alongside global artists including Dermot Kennedy and The Lumineers. Through my time at major record labels I have developed my skillset in being able to lead major campaigns from album releases to tours and even TV shows.
-        </p>
-      </div>
-      <div className="flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-4">
-        <p className="text-[17px] leading-[1.65] text-body">
-          This portfolio is a taste of the work I am proud to have been part of. I am always interested to hear about new projects and where I might be able to help. If you&apos;re interested in collaborating get in touch and let&apos;s chat, or even better, grab a coffee.
-        </p>
+      <div id="about" className="scroll-mt-4 flex flex-col gap-5 self-start border-t border-ink pt-6 desk:col-span-12">
+        <div className="flex max-w-[860px] flex-col gap-5">
+          <p className="text-[17px] leading-[1.65] text-body">
+            Music is a huge part of my life. From my very first guitar lessons at age 8 through to my first band and more recently in my professional life. It has taken me all over the world where I have been lucky enough to work at the world&apos;s biggest record labels, leading campaigns for incredible artists including Dermot Kennedy, The Lumineers, Ben Howard, Sex Pistols and more.
+          </p>
+          <p className="text-[17px] leading-[1.65] text-body">
+            This portfolio is a taste of the work I am proud to have been part of. I am always interested to hear about new projects and where I might be able to help. If you&apos;re interested in collaborating get in touch and let&apos;s chat, or even better, grab a coffee.
+          </p>
+        </div>
         <a href="#work" className="self-start border-b border-ink pb-1 font-mono text-[13px] !text-ink no-underline">
           See the work
         </a>
