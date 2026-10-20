@@ -70,7 +70,8 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music International, 2023",
     heading: "Global breakthrough for Mae Stephens",
     paras: [
-      "“If We Ever Broke Up” was the debut single from 2023 breakout artist Mae Stephens. The track had gone viral through a major TikTok trend and our plan was to build out from this success. We built a huge radio campaign that saw the track secure #1 on the airplay charts in France and Germany. The single then caught a second wave in Asia after it went viral for the second time in Japan. We capitalised quickly, getting Mae to lean into the trend and allocating budget to continue its trajectory. Mae quickly became the highest streaming UMG artist globally (outperforming Taylor Swift) for two weeks and the single went on to surpass half a billion streams.",
+      "“If We Ever Broke Up” was the debut single from 2023 breakout artist Mae Stephens. The track had gone viral through a major TikTok trend and our plan was to build out from this success. We built a huge radio campaign that saw the track secure #1 on the airplay charts in France and Germany. The single then caught a second wave in Asia after it went viral for the second time in Japan. We capitalised quickly, getting Mae to lean into the trend and allocating budget to continue its trajectory.",
+      "Mae quickly became the highest streaming UMG artist globally (outperforming Taylor Swift) for two weeks and the single went on to surpass half a billion streams.",
     ],
     videos: [
       { id: "vjEDjNFCSeg", label: "Watch: the Japan dance trend", aria: "Play the Japan dance trend", tone: "green", short: true },
@@ -97,7 +98,7 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music On Demand, 2018 to 2020",
     heading: "Artist development for Devon",
     paras: [
-      "I discovered Devon through UMG's own distribution platform Spinnup. We signed him based on my recommendation, then worked his campaign as one of a team of two.",
+      "I discovered Devon through UMG's own distribution platform Spinnup. We signed him based on my recommendation, I then worked his campaign as one of a team of two.",
       "From there the job was building an artist project from the ground up. Defining his identity, introducing him to tastemakers and honing his live skills. This project saw us secure Devon's first support on Spotify, Apple and Deezer, with key inclusions in The Indie List. We also gained a BBC Radio 1 debut and an interview on Jack Saunders' Indie Show. This support snowballed and before long Devon was making TV appearances, playing headline shows and supporting UK juggernauts McFly.",
     ],
     videos: [
@@ -131,7 +132,7 @@ export const campaigns: Campaign[] = [
     heading: "Album campaign for Sex Pistols",
     paras: [
       "In 2022 I was lucky enough to work with British rock royalty, the Sex Pistols. The campaign was built around the release of the Danny Boyle directed Disney+ series Pistol, based on Steve Jones's memoir. As it was being released on a major streamer, the series would be global from the get go. To run alongside the series we released a 20 track album of original recordings from the show, showcasing the Pistols' iconic catalogue.",
-      "I worked very closely with Steve and the band's management to promote both the album and series internationally, securing key promo in Europe and the US with publications like Rolling Stone. It was an incredible campaign and an honour to work with British rock royalty.",
+      "I worked very closely with Steve and the band's management to promote both the album and series internationally, securing key promo in Europe and the US with publications like Rolling Stone. It was an incredible campaign and an honour to work with a true music legend.",
     ],
     videos: [
       { id: "-QtyfPxkBqs", label: "Watch: the Pistol trailer", aria: "Play the Pistol trailer", tone: "green", poster: "thumb-pistols.jpg" },

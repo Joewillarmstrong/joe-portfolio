@@ -101,7 +101,7 @@ export default function Work() {
           </div>
 
           {c.gallery && (
-            <div className="grid grid-cols-3 gap-3 desk:col-span-12 desk:mt-4 desk:gap-6">
+            <div className="grid grid-cols-3 gap-3 desk:col-span-8 desk:col-start-4 desk:mt-4 desk:gap-4">
               {c.gallery.map((g) => (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
