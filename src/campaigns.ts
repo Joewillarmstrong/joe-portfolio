@@ -69,8 +69,7 @@ export const campaigns: Campaign[] = [
     meta: "Universal Music International, 2023",
     heading: "Global breakthrough for Mae Stephens",
     paras: [
-      "“If We Ever Broke Up” went viral on TikTok in Europe and the US first. Three or four months later, my Friday market-by-market report picked up a second wave building in Asia.",
-      "We moved campaign spend into Japan, China and the Philippines. In Japan, influencers had built a dance trend around the song, and we got Mae to join in herself. She went on promo in Japan and across Europe, the song reached number one on radio in Germany and France, and for two weeks it outranked a Taylor Swift single on Universal's internal global chart.",
+      "“If We Ever Broke Up” was the debut single from 2023 breakout artist Mae Stephens. The track had gone viral through a major TikTok trend and our plan was to build out from this success. We built a huge radio campaign that saw the track secure #1 on the airplay charts in France and Germany. The single then caught a second wave in Asia after it went viral for the second time in Japan. We capitalised quickly, getting Mae to lean into the trend and allocating budget to continue its trajectory. Mae quickly became the highest streaming UMG artist globally (outperforming Taylor Swift) for two weeks and the single went on to surpass half a billion streams.",
     ],
     videos: [
       { id: "vjEDjNFCSeg", label: "Watch: the Japan dance trend", aria: "Play the Japan dance trend", tone: "green", short: true },
