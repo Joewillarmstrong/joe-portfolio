@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 16px; }
+body { background: #F6F6F4; color: #111214; -webkit-font-smoothing: antialiased; }
+a { color: #1F4A33; }
+a:hover { color: #163826; }
+
+:focus-visible { outline: 3px solid #1F4A33; outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
